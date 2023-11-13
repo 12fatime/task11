@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.navbar{
+    padding: 20px 0px;
+    background-color:aliceblue;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color:black;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    color: black;
+}
+.two{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image: url("https://www.w3schools.com/w3images/architect.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    margin-left: 430px;
+}
+.third{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+.third h5{
+    font-size: 20px;
+    padding: 20px;
+}
+.four {
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.four .bir{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+
+}
+.bir div{
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+.four .iki{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.iki div{
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+.four .uch{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.uch div{
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+.four .dord{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.dord div{
+    width: 50%;
+    background-color: black;
+    color: aliceblue;
+}
+.five{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.five .bir{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.five .iki{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.five .uch{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.five .dord{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/house3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.seven{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.seven .bir{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/team2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.seven .iki{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/team1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.seven .uch{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/team3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.seven .dord{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    background-image: url("https://www.w3schools.com/w3images/team4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+.eight{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+   padding-bottom: 150px;
+}
+.w3-button1{
+    padding: 8px 16px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(183, 204, 197);
+    border: white;
+}
+.eight .bir{
+    width: 300px;
+    height: 200px;
+    
+    
+}
+.eight .iki{
+    width: 300px;
+    height: 200px;
+    
+}
+.eight .uch{
+    width: 300px;
+    height: 200px;
+    
+}
+.eight .dord{
+    width: 300px;
+    height: 200px;
+   
+}
+.nine{
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+}
+.w3-input{
+    width: 100%;
+    padding: 8px;
+    display: block;
+}
+.w3-button{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.ten{
+    width: 100%;
+    height: 400px;
+    background-color: azure;
+    background-image: url("https://www.w3schools.com/w3images/map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eleven{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.eleven h4{
+    color: azure;
+    text-align: center;
+    
+}
